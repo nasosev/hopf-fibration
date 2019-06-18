@@ -1,4 +1,3 @@
-
 const LOOP_RESOLUTION = 384;
 const LOOP_DELTA_PH = ( 2 * Math.PI ) / LOOP_RESOLUTION;
 const CAM_RADIUS = 4;
@@ -93,7 +92,6 @@ let createSphere = function ( scene: BABYLON.Scene )
 
   return sphere;
 };
-
 
 let draw = function ( point: BABYLON.Vector3 )
 {

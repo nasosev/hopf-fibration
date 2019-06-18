@@ -19,10 +19,10 @@ See <https://nilesjohnson.net/hopf-production.html> for details of the projectio
 ![Screenshot.](screenshot.png)
 
 ## Controls
-  - left-clicks on right-side: rotates;
+  - left-click on right-side: rotates;
   - right-click on left-side: draws fibres;
   - left-click on left-side: rotates and draws fibres;
-  - touch controls should work on mobile.
+  - touch controls: should work on mobile.
 
 ## [Go to demonstration](https://nasosev.github.io/hopf_fibration)
   ---
