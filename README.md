@@ -10,7 +10,7 @@ It is one of the few beautiful objects in topology that can be easily visualised
 
 The left-hand camera shows the 2-sphere **S**<sup>2</sup> with marked points depicted by coloured pins.
 
-The right hand-camera shows a stereographic projection of the fibres corresponding to these marked points in the 3-sphere **S**<sup>3</sup> onto the unit ball **D**<sup>3</sup> ⊂ **R**<sup>3</sup>.
+The right hand-camera shows a stereographic projection of the fibres corresponding to these marked points onto the unit ball **D**<sup>3</sup> ⊂ **R**<sup>3</sup>.
 
 Any two of these circular fibres are interlinked.
 
