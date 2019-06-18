@@ -22,7 +22,7 @@ See [nilesjohnson.net](https://nilesjohnson.net/hopf-production.html) for detail
   - left-click on right-side: rotates;
   - right-click on left-side: draws fibres;
   - left-click on left-side: rotates and draws fibres;
-  - touch controls: should work on mobile.
+  - touch controls: use landscape mode.
 
 ## [Go to demonstration](https://nasosev.github.io/hopf_fibration)
   ---
