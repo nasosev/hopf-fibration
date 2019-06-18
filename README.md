@@ -6,7 +6,7 @@ The Hopf fibration
 
 is a canonical nontrivial circle bundle over the 2-sphere **S**<sup>2</sup> whose total space is the 3-sphere **S**<sup>3</sup>.
 
-This [interactive demonstration](https://nasosev.github.io/hopf_fibration) allows the Hopf fibration to be visualised.
+It is one of the few beautiful objects in topology that can be easily visualised.
 
 The left-hand camera shows the 2-sphere **S**<sup>2</sup> with marked points depicted by coloured pins.
 
@@ -14,7 +14,7 @@ The right hand-camera shows a stereographic projection of the fibres correspondi
 
 Any two of these circular fibres are interlinked.
 
-See <https://nilesjohnson.net/hopf-production.html> for details of the projection, or <https://en.wikipedia.org/wiki/Hopf_fibration> for general information about the Hopf fibration. 
+See [nilesjohnson.net](https://nilesjohnson.net/hopf-production.html) for details of the projection, or [wikipedia](https://en.wikipedia.org/wiki/Hopf_fibration) for general information. 
 
 ![Screenshot.](screenshot.png)
 
