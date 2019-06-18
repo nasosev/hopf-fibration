@@ -14,7 +14,7 @@ The right hand-camera shows a stereographic projection of the fibres correspondi
 
 Any two of these circular fibres are interlinked.
 
-See [nilesjohnson.net](https://nilesjohnson.net/hopf-production.html) for details of the projection, or [wikipedia](https://en.wikipedia.org/wiki/Hopf_fibration) for general information. 
+See [nilesjohnson.net](https://nilesjohnson.net/hopf-production.html) for precise details of the projection, or [wikipedia](https://en.wikipedia.org/wiki/Hopf_fibration) for general information. 
 
 ![Screenshot.](screenshot.png)
 
