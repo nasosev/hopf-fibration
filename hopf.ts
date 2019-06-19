@@ -21,6 +21,13 @@ let unitVecToFibre = function ( point: BABYLON.Vector3, ph: number )
   return new BABYLON.Vector3( x * r, y * r, z * r );
 };
 
+let pointToColor = function ( point: BABYLON.Vector3 )
+{
+  let color = new BABYLON.Color4( 0.5 * ( 1 - point.x ), 0.5 * ( 1 - point.y ), 0.5 * ( 1 - point.z ), 1 );
+
+  return color;
+};
+
 let createPath = function ( point: BABYLON.Vector3 )
 {
   let points = [];
@@ -30,14 +37,8 @@ let createPath = function ( point: BABYLON.Vector3 )
     points.push( unitVecToFibre( point, ph ) );
     ph += LOOP_DELTA_PH;
   }
+
   return points;
-};
-
-let pointToColor = function ( point: BABYLON.Vector3 )
-{
-  let color = new BABYLON.Color4( 0.5 * ( 1 - point.x ), 0.5 * ( 1 - point.y ), 0.5 * ( 1 - point.z ), 1 );
-
-  return color;
 };
 
 let createLoop = function ( point: BABYLON.Vector3, scene: BABYLON.Scene, mask: number )
@@ -63,6 +64,7 @@ let createCamera = function ( name: string, mask: number )
   camera.panningAxis = BABYLON.Vector3.Zero(); // disable panning
   camera.angularSensibilityX *= -1; // invert x-axis
   camera.angularSensibilityY *= -1; // invert y-axis
+
   return camera;
 };
 
@@ -73,6 +75,7 @@ let createDash = function ( point: BABYLON.Vector3, scene: BABYLON.Scene, mask: 
   let colors = [ color, color ];
   let dash = BABYLON.MeshBuilder.CreateLines( 'dash', { points: points, colors: colors, useVertexAlpha: false }, scene );
   dash.layerMask = mask;
+
   return dash;
 };
 
@@ -130,6 +133,7 @@ let createScene = function ()
         break;
     }
   } );
+
   return scene;
 };
 
