@@ -116,7 +116,6 @@ let createScene = function ()
   let isPointerDown = false;
   scene.onPointerObservable.add( pointerInfo =>
   {
-
     let pickInfo = scene.pick( scene.pointerX, scene.pointerY, function ( mesh ) { return mesh == sphere; } );
     switch ( pointerInfo.type )
     {
