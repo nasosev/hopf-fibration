@@ -24,6 +24,6 @@ See [nilesjohnson.net](https://nilesjohnson.net/hopf-production.html) for precis
   - left-click on left-side: rotates and draws fibres;
   - touch controls: use landscape mode.
 
-## [Go to demonstration](https://nasosev.github.io/files/demos/hopf_fibration)
+## [Go to demonstration](https://nasosev.github.io/assets/posts/hopf_fibration)
   ---
   Written by Nasos Evangelou-Oost, June 2019.
