@@ -39,6 +39,7 @@ let createPath = ( point: BABYLON.Vector3 ) =>
         points.push( unitVecToFibre( point, ph ) );
         ph += loopDeltaPh;
     }
+	
     return points;
 };
 
