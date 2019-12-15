@@ -9,7 +9,7 @@
 - left-click on left-side: rotates and draws fibres;
 - touch controls: use landscape mode.
 
-## [Go to demonstration](https://nasosev.github.io/assets/posts/hopf_fibration)
+## [Go to browser app](https://nasosev.github.io/assets/posts/hopf_fibration)
 
 ---
 
