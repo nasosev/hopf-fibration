@@ -10,7 +10,3 @@
 - touch controls: use landscape mode
 
 ## [Go to browser app](https://nasosev.github.io/assets/posts/hopf_fibration)
-
----
-
-Copyright (c) 2019 Nasos Evangelou-Oost.
